@@ -1,0 +1,25 @@
+{
+  "name": "open-in-app",
+  "version": "1.0.0",
+  "description": "A web app to auto reply to gmail threads which has no prior replies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rajan chouhan",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.1",
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express-session": "^1.17.3",
+    "express.js": "^1.0.0",
+    "fs": "^0.0.1-security",
+    "googleapis": "^120.0.0",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0",
+    "path": "^0.12.7",
+    "session": "^0.1.0"
+  }
+}
